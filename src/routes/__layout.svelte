@@ -1,11 +1,11 @@
-<script>
+<script lang="ts">
     import "../app.css";
     import NavBar from '../lib/components/nav.svelte';
     import Footer from '../lib/components/footer.svelte';
 </script>
 
-<main class="flex flex-col">
-    <NavBar></NavBar>
+<NavBar></NavBar>
+<main class="flex flex-col w-max max-w-screen-md mx-auto m-0">
     <slot></slot>
-    <Footer></Footer>
 </main>
+<Footer></Footer>
