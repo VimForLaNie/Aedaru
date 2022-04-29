@@ -17,3 +17,5 @@ firestore.*
 .firebaserc
 .eslintrc.*
 playwright.*
+test-results/
+playwright-report/
