@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --agnostic-primary: #90ecad;
+    --agnostic-primary-hover: #54d67d; 
+    --agnostic-primary-light: #90ecad;
+    --agnostic-primary-border: #c1d9e9; /* need to be edit ?*/
+    --agnostic-primary-dark: #063f69; /* not yet */
+    --agnostic-secondary: #6ee078;
+    --agnostic-secondary-hover: #8df796; 
+    --agnostic-action: #d81e5b;
+    --agnostic-action-light: #d81e5b;
+    --agnostic-action-border: #c7f0d1; /* may be*/
+    --agnostic-action-hover: #c20845; 
+    --agnostic-warning-light: #fff5d4;
+    --agnostic-warning-border-accent: #ecd386;
+    --agnostic-warning-border: #f0e3b9;
+    --agnostic-warning-dark: #634902;
+    --agnostic-error: #e02e2e;
+    --agnostic-error-dark: #771414;
+    --agnostic-error-light: #ffe0e0;
+    --agnostic-error-border: #eec8c8;
+    --agnostic-gray-extra-light: #f8f8f8;
+    --agnostic-gray-light: #e9e9e9;
+    --agnostic-gray-mid: #d8d8d8;
+    --agnostic-gray-mid-dark: #ccc;
+    --agnostic-gray-dark: #757575;
+    --agnostic-dark: #333;
+    --agnostic-light: #fff;
+    --agnostic-disabled-bg: var(--agnostic-gray-light);
+    --agnostic-disabled-color: var(--agnostic-gray-dark);
+}  

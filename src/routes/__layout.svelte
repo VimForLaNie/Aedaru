@@ -1,5 +1,7 @@
 <script lang="ts">
     import "../app.css";
+    import 'agnostic-svelte/css/common.min.css';
+
     import NavBar from '../lib/components/nav.svelte';
     import Footer from '../lib/components/footer.svelte';
 </script>

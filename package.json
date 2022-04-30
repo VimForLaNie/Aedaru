@@ -42,6 +42,7 @@
   "dependencies": {
     "@sveltejs/adapter-cloudflare": "^1.0.0-next.19",
     "@sveltejs/adapter-node": "^1.0.0-next.73",
+    "agnostic-svelte": "^1.1.22",
     "moment-timezone": "^0.5.34"
   }
 }
