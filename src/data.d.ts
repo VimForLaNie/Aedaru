@@ -1,5 +1,3 @@
-import { Moment } from 'moment'
-
 interface baseTransaction {
 	time : number,
 	amount : number,
@@ -16,15 +14,15 @@ interface fromTransaction extends baseTransaction{
 	src : string
 }
 
-type transaction = toTransaction | fromTransaction;
+export type transaction = toTransaction | fromTransaction;
 
-interface wallet {
+export interface wallet {
 	id : string,
 	displayName : string,
 	transactions : transaction[] | [],
 	amount : number,
 }
-interface user{
+export interface user{
 	id : string,
 	displayName : string,
 	wallets : { total : number, list : wallet[] | []},
